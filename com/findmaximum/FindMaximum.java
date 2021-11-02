@@ -3,18 +3,18 @@ package com.findmaximum;
 public class FindMaximum {
 	//main method
 		public static void main(String args[]) {
-			//integer values
-			Integer intVal1 = 12, intVal2 = 13, intVal3 = 9;
+			//float values
+			Float floatVal1 = 12.21f, floatVal2 = 18.22f, floatVal3 = 9.2f;
 			
 			//assign 1st value to max
-			Integer max = intVal1;
+			Float max = floatVal1;
 			
 			//checking max with other values
-			if (intVal2.compareTo(max) > 0) {
-				max = intVal2;
+			if (floatVal2.compareTo(max) > 0) {
+				max = floatVal2;
 			}
-			if (intVal3.compareTo(max) > 0) {
-				max = intVal3;
+			if (floatVal3.compareTo(max) > 0) {
+				max = floatVal3;
 			}
 		
 			//printing maximum value among three
